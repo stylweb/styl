@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/04/2015, 22:39:07
+    Author     : rodolfo
+*/
+
+@import "variables.scss";
+
+#design
+{
+    ul
+    {
+        height: 400px;
+        text-align: center;
+        
+        li
+        {
+            width: 22%;
+            height: 100%;
+            display: inline-block;
+            
+            .icon
+            {
+                width: 100%;
+                height: 35%;
+                background-size: 100px 100px;
+                background-color: $red;
+                
+                &.stamp
+                {
+                    background-image: url('../images/icon-logo.png');
+                }
+                &.card
+                {
+                    background-image: url('../images/icon-cartao.png');
+                }
+                &.flyer
+                {
+                    background-image: url('../images/icon-flyer.png');
+                }
+                &.update
+                {
+                    background-image: url('../images/icon-logo2.png');
+                }
+            }
+            
+            p
+            {
+                width: 90%;
+                height: 60%;
+                padding: 5% 5% 5% 5%;
+                background-color: $lightGray;
+            }
+        }
+    }
+    
+}

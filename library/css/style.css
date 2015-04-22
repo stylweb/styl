@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/02/2015, 22:46:15
+    Author     : Rodolfo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2014, 16:40:06
+    Author     : Rodolfo
+*/
+ul, li, h1, h2, h3, h4, p, figure, button, div, section, body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 150px; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 2px; }
+
+h2 {
+  text-align: center;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 50px;
+  text-transform: uppercase; }
+
+h5 {
+  font-size: 26px; }
+  h5 span {
+    text-transform: uppercase; }
+
+.blue {
+  color: #70b9bf; }
+
+.red {
+  color: #d74e43; }
+
+.yellow {
+  color: #f6da78; }
+
+.green {
+  color: #9fe0a0; }
+
+.bg-green {
+  background-color: #9fe0a0; }
+
+.bg-black {
+  background-color: #1b1a18; }
+
+.bg-light-gray {
+  background-color: #f5f3ee; }
+
+.bg-green {
+  background-color: #9fe0a0; }
+
+.bg-white {
+  background-color: white; }
+
+.bg-blue {
+  background-color: #70b9bf; }
+
+.bg-yellow {
+  background-color: #f6da78; }
+
+.bg-red {
+  background-color: #d74e43; }
+
+.clear {
+  clear: both; }
+
+.content {
+  width: 960px;
+  margin: 0 auto; }
+
+.full-site {
+  width: 100%;
+  background-position: center center; }
+
+button {
+  display: block;
+  width: 122px;
+  height: 41px;
+  background-image: url("../images/button.png");
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 auto; }
+
+body {
+  background-color: white;
+  font-family: "Roboto Slab", serif;
+  color: black;
+  position: relative;
+  text-align: center; }
+
+#header {
+  background-color: #1b1a18; }
+  #header #header-nav {
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid #f5f3ee;
+    position: fixed;
+    top: 0px;
+    background-color: #1b1a18; }
+    #header #header-nav ul {
+      width: 100%;
+      height: auto;
+      text-align: center; }
+      #header #header-nav ul li {
+        display: inline-block;
+        font-size: 28px;
+        padding: 0px 35px 0px 35px;
+        cursor: pointer;
+        background-size: 100% 100%;
+        vertical-align: top;
+        padding-top: 15px;
+        font-size: 14px;
+        color: #cdcccc; }
+        #header #header-nav ul li#header-design:hover {
+          color: #d74e43; }
+        #header #header-nav ul li#header-design.active {
+          background-color: #d74e43; }
+        #header #header-nav ul li#header-support:hover {
+          color: #9fe0a0; }
+        #header #header-nav ul li#header-support.active {
+          background-color: #9fe0a0; }
+        #header #header-nav ul li.active {
+          background-color: #70b9bf;
+          color: black; }
+          #header #header-nav ul li.active:hover {
+            color: black !important; }
+        #header #header-nav ul li:hover {
+          color: #70b9bf; }
+        #header #header-nav ul li#header-logo {
+          width: 90px;
+          height: 42px;
+          background-image: url(../images/logo-bw.png);
+          padding: 0px;
+          margin-left: 25px;
+          margin-right: 25px; }
+        #header #header-nav ul li.header-itens {
+          padding-top: 15px;
+          padding-bottom: 15px; }
+  #header #header-banner {
+    height: auto;
+    background-color: #222222;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 70px; }
+    #header #header-banner #header-banner-image {
+      width: 182px;
+      height: 85px;
+      margin: 0 auto;
+      background-image: url("../images/logo-bw.png"); }
+    #header #header-banner h1 {
+      font-size: 46px; }
+    #header #header-banner h2 {
+      letter-spacing: 4px; }
+
+#footer {
+  width: 100%;
+  height: 50px;
+  text-align: center; }
+  #footer.absolute {
+    position: absolute;
+    bottom: 0px; }
+  #footer h5 {
+    color: #cdcccc;
+    margin: 0;
+    font-size: 20px;
+    line-height: 50px; }
+
+/*# sourceMappingURL=style.css.map */

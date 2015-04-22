@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/04/2015, 22:39:07
+    Author     : rodolfo
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/09/2014, 16:40:06
+    Author     : Rodolfo
+*/
+#website ul li {
+  width: 30%;
+  display: inline-block;
+  height: 300px;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #f5f3ee; }
+  #website ul li .icon {
+    width: 100%;
+    height: 130px;
+    background-size: 100px 100px;
+    background-color: #70b9bf; }
+    #website ul li .icon.icon-monitor {
+      background-image: url("../images/icon-monitor.png"); }
+    #website ul li .icon.icon-ecommerce {
+      background-image: url("../images/icon-ecommerce.png"); }
+    #website ul li .icon.icon-email {
+      background-image: url("../images/icon-email.png"); }
+
+#website-plus {
+  height: 500px; }
+  #website-plus ul {
+    height: 400px;
+    margin-top: 100px; }
+    #website-plus ul li {
+      width: 100%;
+      height: 45%;
+      margin-bottom: 20px; }
+      #website-plus ul li .icon {
+        width: 30%;
+        height: 100%;
+        float: left;
+        background-image: url("../images/icon-update.png");
+        background-size: 100px 100px;
+        background-color: #70b9bf; }
+        #website-plus ul li .icon.search {
+          background-image: url("../images/icon-search.png"); }
+      #website-plus ul li p {
+        width: 60%;
+        height: 69%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        float: left;
+        background-color: white; }
+
+/*# sourceMappingURL=website.css.map */
