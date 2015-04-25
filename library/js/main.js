@@ -12,6 +12,14 @@ $(document).ready(function ()
     topWebsite = $('#website').position().top;
     topSupport = $('#support').position().top;
     topDesign = $('#design').position().top;
+    
+    $('#header-banner-image').on('click', function(){
+        $('#header-banner-image').addClass('color');
+        $('#header').addClass('color');
+        $('#header-banner').addClass('color');
+        $('#header-nav').addClass('color');
+        $('#header-logo').addClass('color');
+    });
 });
 
 $(window).scroll(function()
@@ -66,22 +74,22 @@ function manageScroll()
 {
     $('#header-website').on('click', function ()
     {
-        $("body").animate({scrollTop: $('#website').position().top}, 'slow');
+        $("body, html").animate({scrollTop: $('#website').position().top}, 'slow');
     });
 
     $('#header-design').on('click', function ()
     {
-        $("body").animate({scrollTop: $('#design').position().top}, 'slow');
+        $("body, html").animate({scrollTop: $('#design').position().top}, 'slow');
     });
 
     $('#header-support').on('click', function ()
     {
-        $("body").animate({scrollTop: $('#support').position().top}, 'slow');
+        $("body, html").animate({scrollTop: $('#support').position().top}, 'slow');
     });
 
     $('#header-website').on('click', function ()
     {
-        $("body").animate({scrollTop: $('#website').position().top}, 'slow');
+        $("body, html").animate({scrollTop: $('#website').position().top}, 'slow');
     });
 }
 

@@ -175,6 +175,11 @@ body
 #header
 {
     background-color: $black; 
+    
+    &.color
+    {
+        background-color: $red;
+    }
 
     #header-nav
     {   
@@ -190,6 +195,13 @@ body
         position: fixed;
         top: 0px;
         background-color: $black;
+        
+        &.color
+        {
+            background-color: #152168;
+            -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+        }
 
         ul
         {
@@ -238,11 +250,11 @@ body
                 &.active
                 {
                     background-color: $blue;
-                    color: black;
+                    color: white;
                     
                     &:hover
                         {
-                            color: black!important;
+                            color: white!important;
                     }
                 }
                 
@@ -259,13 +271,21 @@ body
                     background-image: url(../images/logo-bw.png);
                     padding: 0px;
                     margin-left: 25px;
-                    margin-right: 25px
+                    margin-right: 25px;
+                        
+                    &.color
+                    {
+                        background-image: url(../images/logo-color.png);
+                    }
+                        
                 }
 
                 &.header-itens
                 {
                     padding-top: 15px;
                     padding-bottom: 15px;
+                    -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                    transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
                 }
             }
         }
@@ -278,6 +298,14 @@ body
         padding-top: 50px;
         padding-bottom: 50px;
         margin-top: 70px;
+        -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+        transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+        
+        &.color
+        {
+            background-color: $bgBlue;
+        }
+        
 
         #header-banner-image
         {
@@ -285,6 +313,15 @@ body
             height: 85px;
             margin: 0 auto;
             background-image: url('../images/logo-bw.png');
+            background-size: 182px;
+            height: 85px;
+            
+            &.color
+            {
+                background-image: url('../images/logo-color.png');
+                -webkit-transition: all 1.0s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                    transition: all 1.0s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+            }
         }
 
         h1

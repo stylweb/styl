@@ -7,8 +7,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?/$1 [L]
 
 # make sure this is the right host
-RewriteCond %{HTTP_HOST} total13.com$ [NC]
+RewriteCond %{HTTP_HOST} styl.com.br$ [NC]
 # make sure this is a request for an existing directory
 RewriteCond %{REQUEST_FILENAME} -d
 # redirect
-RewriteRule ^(.*)$ http://www.total13.com/dev/home [L,R=301]
+RewriteRule ^(.*)$ http://www.styl.com.br/teste/home [L,R=301]

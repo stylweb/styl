@@ -123,6 +123,8 @@ body {
 
 #header {
   background-color: #1b1a18; }
+  #header.color {
+    background-color: #d74e43; }
   #header #header-nav {
     width: 100%;
     height: auto;
@@ -136,6 +138,12 @@ body {
     position: fixed;
     top: 0px;
     background-color: #1b1a18; }
+    #header #header-nav.color {
+      background-color: #152168;
+      -webkit-transition: all 0.3s ease-out;
+      /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+      transition: all 0.3s ease-out;
+      /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
     #header #header-nav ul {
       width: 100%;
       height: auto;
@@ -160,9 +168,9 @@ body {
           background-color: #9fe0a0; }
         #header #header-nav ul li.active {
           background-color: #70b9bf;
-          color: black; }
+          color: white; }
           #header #header-nav ul li.active:hover {
-            color: black !important; }
+            color: white !important; }
         #header #header-nav ul li:hover {
           color: #70b9bf; }
         #header #header-nav ul li#header-logo {
@@ -172,21 +180,41 @@ body {
           padding: 0px;
           margin-left: 25px;
           margin-right: 25px; }
+          #header #header-nav ul li#header-logo.color {
+            background-image: url(../images/logo-color.png); }
         #header #header-nav ul li.header-itens {
           padding-top: 15px;
-          padding-bottom: 15px; }
+          padding-bottom: 15px;
+          -webkit-transition: all 0.3s ease-out;
+          /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+          transition: all 0.3s ease-out;
+          /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
   #header #header-banner {
     height: auto;
     background-color: #222222;
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 70px; }
+    margin-top: 70px;
+    -webkit-transition: all 0.3s ease-out;
+    /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.3s ease-out;
+    /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
+    #header #header-banner.color {
+      background-color: #1A2985; }
     #header #header-banner #header-banner-image {
       width: 182px;
       height: 85px;
       margin: 0 auto;
-      background-image: url("../images/logo-bw.png"); }
+      background-image: url("../images/logo-bw.png");
+      background-size: 182px;
+      height: 85px; }
+      #header #header-banner #header-banner-image.color {
+        background-image: url("../images/logo-color.png");
+        -webkit-transition: all 1.0s ease-out;
+        /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+        transition: all 1.0s ease-out;
+        /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
     #header #header-banner h1 {
       font-size: 46px; }
     #header #header-banner h2 {

@@ -2,9 +2,16 @@
     <link rel="stylesheet" type="text/css" href="library/css/style.css">
     <link rel="stylesheet" type="text/css" href="library/css/tablet.css">
     <link rel="stylesheet" type="text/css" href="library/css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="library/css/home.css">
+    <link rel="stylesheet" type="text/css" href="library/css/design.css">
+    <link rel="stylesheet" type="text/css" href="library/css/website.css">
+    <link rel="stylesheet" type="text/css" href="library/css/support.css">
+    <link rel="stylesheet" type="text/css" href="library/css/contact.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:900,500,700,400' rel='stylesheet' type='text/css'>
     <script src="library/js/third-party/jquery-1.11.2.min.js"></script>
     <script src="library/js/third-party/jquery.animate-colors.js"></script>
+    <script src="library/js/home.js"></script>
+    <script src="library/js/contact.js"></script>
     <script src="library/js/main.js"></script>
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 </head>
