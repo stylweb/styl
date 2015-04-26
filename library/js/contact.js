@@ -8,14 +8,13 @@ $(document).ready(function ()
 {
     $('#contact-styl-submit').on("click", function(){
             $.ajax({
-                url: 'home/process',
+                url: 'home/send',
                 data: $('#contact-styl').serialize(),
                 type: "POST",
                 success: function (data) {
                     alert(data);
                 }
             });
-            alert("!!");
             return false;
     });
 });

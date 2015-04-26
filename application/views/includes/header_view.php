@@ -14,6 +14,7 @@
     <script src="library/js/contact.js"></script>
     <script src="library/js/main.js"></script>
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <title>STYL | Web & Solu&ccedil;&odblac;es</title>
 </head>
 <header id="header">
     <div id="header-nav" class="content">
