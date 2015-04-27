@@ -26,12 +26,15 @@
             <li id='header-contact' class="header-itens">Contato</li>
         </ul>
         <ul id="header-nav-mobile">
-            <div id="header-nav-mobile-button"></div>
+            <div id="header-nav-mobile-button">
+                <p>Menu</p>
+                <div id="header-nav-mobile-button-logo"></div>
+            </div>
             <ul id="header-nav-mobile-drop">
-                <li><p>Web Site</p></li>
-                <li><p>Identidade Visual</p></li>
-                <li><p>Apoio Gerencial</p></li>
-                <li><p>Contato</p></li>
+                <li id="header-nav-mobile-website"><p>Web Site</p></li>
+                <li id="header-nav-mobile-design"><p>Identidade Visual</p></li>
+                <li id="header-nav-mobile-support"><p>Apoio Gerencial</p></li>
+                <li id="header-nav-mobile-contact"><p>Contato</p></li>
             </ul>
         </ul>
     </div>

@@ -83,6 +83,16 @@ $(window).scroll(function()
     {
             $('#header-logo').fadeOut('slow');
     }
+    
+     if($(window).scrollTop() >= 150)
+         {
+             $('#header-nav-mobile-button-logo').stop(true).fadeIn('slow');
+         }
+         
+         else
+         {
+             $('#header-nav-mobile-button-logo').stop(true).fadeOut('slow');
+         }
 });
 
 function headerLogo()
@@ -120,11 +130,34 @@ function manageScroll()
 
 function manageMobile(){
     
-    if($(window).width() <= 640)
-    {
         $('#header-nav-mobile-button').on('click', function()
         {
-           $('#header-nav-mobile-drop').toggleClass('active');
-        });        
-    }
+           $('#header-nav-mobile-drop').stop(true).toggleClass('active');
+        });
+        
+        $('#header-nav-mobile-website').on('click', function(){
+            $("body, html").animate({scrollTop: $('#website').position().top}, 'slow');
+            $('#header-nav-mobile-drop').stop(true).toggleClass('active');
+        });
+        
+         $('#header-nav-mobile-design').on('click', function(){
+            $("body, html").animate({scrollTop: $('#design').position().top}, 'slow');
+            $('#header-nav-mobile-drop').stop(true).toggleClass('active');
+        });
+        
+         $('#header-nav-mobile-support').on('click', function(){
+            $("body, html").animate({scrollTop: $('#support').position().top}, 'slow');
+            $('#header-nav-mobile-drop').stop(true).toggleClass('active');
+        });
+        
+         $('#header-nav-mobile-contact').on('click', function(){
+            $("body, html").animate({scrollTop: $('#contact').position().top}, 'slow');
+            $('#header-nav-mobile-drop').stop(true).toggleClass('active');
+        });
+        
+         $('#header-nav-mobile-button-logo').on('click', function(){
+            $("body, html").animate({scrollTop: 0}, 'slow');
+            $('#header-nav-mobile-drop').stop(true).toggleClass('active');
+        });
+        
 }

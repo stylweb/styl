@@ -1,6 +1,6 @@
 <section id="design" class="full-site">
     <div id="design-content" class="content">
-        <h3 class="red">Design</h3>
+        <h3 class="red">Identidade Visual</h3>
         <ul class="full-site">
             <li>
                 <div class="icon stamp"></div>

@@ -74,7 +74,7 @@ and open the template in the editor.
         {
             height: 55px;
             padding: 0px;
-
+            
             #header-nav-desktop
             {
                 display: none;
@@ -92,16 +92,43 @@ and open the template in the editor.
                 display: block;
                 position: relative;
                 cursor: pointer;
+                
+                #header-nav-mobile-button-logo
+                {
+                    display: none;
+                    position: absolute;
+                    width: 100px;
+                    height: 100%;
+                    background-image: url("../images/logo-bw.png");
+                    background-size: 70px;
+                    left: 50%;
+                    margin-left: -50px;
+                }
 
                 #header-nav-mobile-button
                 {
                     width: 100%;
                     height: 100%;
-                    background-image: url('../images/menu-mobile.png');
+                    //background-image: url('../images/menu-mobile.png');
                     background-size: 40px 40px;
                     background-color: $black;
                     position: relative;
                     z-index: 999;
+                    background-position: 10px center;
+                      
+                    p
+                    {
+                        width: 45px;
+                        height: 20px;
+                        background-color: $gray;
+                        color: white;
+                        position: absolute;
+                        top: 15px;
+                        left: 12px;
+                        padding-top: 4px;
+                        color: black;
+                        opacity: 0.8;
+                    }
                 }
 
                 #header-nav-mobile-drop
@@ -110,17 +137,17 @@ and open the template in the editor.
                     height: 310px;
                     background-color: blue;
                     position: absolute;    
-                    top: -500px;
+                    top: -320px;
                     z-index: 1;
-                    -webkit-transition: all 1.5s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
-                    transition: all 1.5s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+                    -webkit-transition: all 0.8s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                    transition: all 0.8s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 
                     &.active
                     {
                         display: block;
                         top: 56px;
-                        -webkit-transition: all 1.5s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
-                        transition: all 1.5s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+                        -webkit-transition: all 0.8s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                        transition: all 0.8s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
                     }
 
                     li
