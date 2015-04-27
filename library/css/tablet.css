@@ -8,9 +8,6 @@ and open the template in the editor.
     Author     : Rodolfo
 */
 @media screen and (max-width: 1024px) {
-  body {
-    background-color: green; }
-
   .content {
     width: 640px; } }
 

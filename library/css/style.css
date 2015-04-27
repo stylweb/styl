@@ -102,6 +102,9 @@ h5 {
   width: 100%;
   background-position: center center; }
 
+.align-right {
+  text-align: right !important; }
+
 button {
   display: block;
   width: 122px;
@@ -144,6 +147,8 @@ body {
       /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
       transition: all 0.3s ease-out;
       /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
+    #header #header-nav #header-nav-mobile {
+      display: none; }
     #header #header-nav ul {
       width: 100%;
       height: auto;
@@ -171,6 +176,10 @@ body {
           color: white; }
           #header #header-nav ul li.active:hover {
             color: white !important; }
+        #header #header-nav ul li#header-contact:hover {
+          color: #cdcccc; }
+        #header #header-nav ul li#header-contact.active {
+          background-color: #cdcccc; }
         #header #header-nav ul li:hover {
           color: #70b9bf; }
         #header #header-nav ul li#header-logo {

@@ -5,6 +5,6 @@
         <input id='contact-styl-email' type="text" placeholder="Email" name="email" value=""/>
         <input id='contact-styl-subject' type="text" placeholder="Assunto" name="subject" value=""/>
         <textarea id='contact-styl-message' placeholder="Mensagem" name="message" value=""/></textarea>
-        <input id="contact-styl-submit" type="submit" id='contact-styl-message' placeholder="Mensagem" value=""/>
+        <input id="contact-styl-submit" type="submit" id='contact-styl-message' placeholder="Mensagem" value="Enviar"/>
     </form>
 </section>

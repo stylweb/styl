@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";;;;;;;;;AAUA,qCACA;EACI,IACA;IACI,gBAAgB,EAAE,KAAK;;EAG3B,QACA;IACI,KAAK,EAAE,KAAK",
+"mappings": ";;;;;;;;;AAUA,qCACA;EAKI,QACA;IACI,KAAK,EAAE,KAAK",
 "sources": ["../scss/tablet.scss"],
 "names": [],
 "file": "tablet.css"

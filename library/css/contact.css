@@ -16,13 +16,46 @@ and open the template in the editor.
     Created on : 13/09/2014, 16:40:06
     Author     : Rodolfo
 */
-#contact form input {
-  display: block;
-  width: 40%;
-  height: 40px;
-  padding: 5px 10px 5px 10px;
-  margin: 0 auto;
-  border: 1px solid #1b1a18;
-  margin-bottom: 10px; }
+#contact form {
+  /* Webkit */
+  /* Firefox 4-18 */
+  /* Firefox 19+ */
+  /* IE10+ */ }
+  #contact form ::-webkit-input-placeholder {
+    color: #1b1a18; }
+  #contact form :-moz-placeholder {
+    color: #1b1a18; }
+  #contact form ::-moz-placeholder {
+    color: #1b1a18; }
+  #contact form :-ms-input-placeholder {
+    color: #1b1a18; }
+  #contact form input, #contact form textarea {
+    display: block;
+    width: 40%;
+    height: 40px;
+    color: #1b1a18;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    margin: 0 auto;
+    border: 1px solid #1b1a18;
+    margin-bottom: 10px;
+    resize: none;
+    -webkit-transition: all 0.3s ease-out;
+    /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 0.3s ease-out;
+    /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
+  #contact form textarea {
+    height: 150px;
+    padding-top: 12px; }
+  #contact form input[type="submit"] {
+    width: 20%;
+    margin-top: 50px;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer; }
+    #contact form input[type="submit"]:hover {
+      color: white;
+      background-color: #1b1a18; }
 
 /*# sourceMappingURL=contact.css.map */

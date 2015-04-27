@@ -25,8 +25,6 @@ and open the template in the editor.
     margin-top: 20px; }
     #support ul li#support-partners .icon {
       float: right; }
-    #support ul li#support-partners p {
-      float: right; }
     #support ul li:first-child {
       margin-top: 0px; }
     #support ul li .icon {
@@ -41,11 +39,16 @@ and open the template in the editor.
         background-image: url("../images/icon-hands.png"); }
       #support ul li .icon.paper {
         background-image: url("../images/icon-paper.png"); }
-    #support ul li p {
+    #support ul li .text {
       width: 75%;
-      height: 80%;
+      height: 120px;
       background-color: white;
       padding: 15px 2% 15px 3%;
-      float: left; }
+      float: left;
+      text-align: left;
+      display: table; }
+      #support ul li .text p {
+        display: table-cell;
+        vertical-align: middle; }
 
 /*# sourceMappingURL=support.css.map */

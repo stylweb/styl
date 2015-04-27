@@ -16,31 +16,26 @@ and open the template in the editor.
     {
         width: 100%;
         height: auto;
-        
+
         li
         {
             width: 100%;
             height: 150px;
             margin-top: 20px;
-            
+
             &#support-partners
             {
                 .icon
                 {
                     float: right;
                 }
-                
-                p
-                {
-                    float: right;
-                }
             }
-            
+
             &:first-child
                 {
                 margin-top: 0px;
             }
-            
+
             .icon
             {
                 width: 20%;
@@ -48,30 +43,38 @@ and open the template in the editor.
                 float:left;
                 background-size: 80px 80px;
                 background-color: $green;
-                
+
                 &.graphic
                 {
                     background-image: url('../images/icon-graphic.png');
                 }
-                
+
                 &.hands
                 {
                     background-image: url('../images/icon-hands.png');
                 }
-                
+
                 &.paper
                 {
                     background-image: url('../images/icon-paper.png');
                 }
             }
-            
-            p
+
+            .text
             {
                 width: 75%;
-                height: 80%;
+                height: 120px;
                 background-color: white;
                 padding: 15px 2% 15px 3%;
                 float:left;
+                text-align: left;
+                display: table;
+
+                p
+                {
+                    display: table-cell;
+                    vertical-align: middle;    
+                }
             }
         }
     }

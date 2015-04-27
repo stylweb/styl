@@ -148,6 +148,11 @@ h5
     background-position: center center;
 }
 
+.align-right
+{
+    text-align: right!important;
+}
+
 button
 {
     display: block;
@@ -202,6 +207,12 @@ body
             -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
                     transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
         }
+        
+        
+    #header-nav-mobile
+    {
+        display: none;
+    }
 
         ul
         {
@@ -255,6 +266,19 @@ body
                     &:hover
                         {
                             color: white!important;
+                    }
+                }
+                
+                &#header-contact
+                  {
+                    &:hover
+                        {
+                        color: $gray;
+                    }
+                    
+                    &.active
+                    {
+                        background-color: $gray;
                     }
                 }
                 

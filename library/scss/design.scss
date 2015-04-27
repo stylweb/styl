@@ -22,6 +22,7 @@ and open the template in the editor.
             width: 22%;
             height: 100%;
             display: inline-block;
+            vertical-align: top;
             
             .icon
             {
@@ -54,6 +55,7 @@ and open the template in the editor.
                 height: 60%;
                 padding: 5% 5% 5% 5%;
                 background-color: $lightGray;
+                text-align: left;
             }
         }
     }

@@ -18,12 +18,21 @@
 </head>
 <header id="header">
     <div id="header-nav" class="content">
-        <ul>
+        <ul id="header-nav-desktop">
             <li id="header-logo"><a href="home"></a></li>
             <li id='header-website' class="header-itens">Web Site</li>
             <li id='header-design' class="header-itens">Identidade Visual</li>
             <li id='header-support' class="header-itens">Apoio Gerencial</li>
             <li id='header-contact' class="header-itens">Contato</li>
+        </ul>
+        <ul id="header-nav-mobile">
+            <div id="header-nav-mobile-button"></div>
+            <ul id="header-nav-mobile-drop">
+                <li><p>Web Site</p></li>
+                <li><p>Identidade Visual</p></li>
+                <li><p>Apoio Gerencial</p></li>
+                <li><p>Contato</p></li>
+            </ul>
         </ul>
     </div>
     <div id="header-banner" class="full-site">

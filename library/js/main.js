@@ -7,11 +7,13 @@
 $(document).ready(function ()
 {
     manageScroll();
+    manageMobile();
     $('#header-logo').hide();
     
     topWebsite = $('#website').position().top;
     topSupport = $('#support').position().top;
     topDesign = $('#design').position().top;
+    topContact = $('#contact').position().top;
     
     $('#header-banner-image').on('click', function(){
         $('#header-banner-image').addClass('color');
@@ -26,11 +28,11 @@ $(window).scroll(function()
 {
     /* Website */
     
-    if ($(window).scrollTop() >= topWebsite)
+    if ($(window).scrollTop() >= topWebsite - 100)
     {
-            $('#header-logo').fadeIn('slow');
-            $('#header-nav > ul> li').removeClass('active');
-            $('#header-website').addClass('active');
+        headerLogo()
+        $('#header-nav > ul> li').removeClass('active');
+        $('#header-website').addClass('active');
     }
     else
     {
@@ -39,9 +41,9 @@ $(window).scroll(function()
     
     /* Design */
     
-     if ($(window).scrollTop() >= topDesign)
+     if ($(window).scrollTop() >= topDesign - 100)
     {
-            $('#header-logo').fadeIn('slow');
+            headerLogo()
             $('#header-nav > ul> li').removeClass('active');
             $('#header-design').addClass('active');
     }
@@ -52,9 +54,9 @@ $(window).scroll(function()
     
     /* Support */
     
-     if ($(window).scrollTop() >= topSupport)
+     if ($(window).scrollTop() >= topSupport - 100)
     {
-            $('#header-logo').fadeIn('slow');
+            headerLogo()
             $('#header-nav > ul> li').removeClass('active');
             $('#header-support').addClass('active');
     }
@@ -63,12 +65,30 @@ $(window).scroll(function()
         $('#header-support').removeClass('active');
     }
     
+    /* Contact */
+     
+     if ($(window).scrollTop() >= topContact - 100)
+    {
+            headerLogo()
+            $('#header-nav > ul> li').removeClass('active');
+            $('#header-contact').addClass('active');
+    }
+    else
+    {
+        $('#header-contact').removeClass('active');
+    }
+    
     
     if ($(window).scrollTop() < topWebsite)
     {
             $('#header-logo').fadeOut('slow');
     }
 });
+
+function headerLogo()
+{
+    $('#header-logo').stop(true).fadeIn('slow');
+}
 
 function manageScroll()
 {
@@ -91,5 +111,20 @@ function manageScroll()
     {
         $("body, html").animate({scrollTop: $('#website').position().top}, 'slow');
     });
+    
+    $('#header-contact').on('click', function ()
+    {
+        $("body, html").animate({scrollTop: $('#contact').position().top}, 'slow');
+    });
 }
 
+function manageMobile(){
+    
+    if($(window).width() <= 640)
+    {
+        $('#header-nav-mobile-button').on('click', function()
+        {
+           $('#header-nav-mobile-drop').toggleClass('active');
+        });        
+    }
+}
