@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="library/css/website.css">
     <link rel="stylesheet" type="text/css" href="library/css/support.css">
     <link rel="stylesheet" type="text/css" href="library/css/contact.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:900,500,700,400' rel='stylesheet' type='text/css'>
     <script src="library/js/third-party/jquery-1.11.2.min.js"></script>
     <script src="library/js/third-party/jquery.animate-colors.js"></script>
@@ -19,7 +20,7 @@
 <header id="header">
     <div id="header-nav" class="content">
         <ul id="header-nav-desktop">
-            <li id="header-logo"><a href="home"></a></li>
+            <li id="header-logo" class="active"><a href="home"></a></li>
             <li id='header-website' class="header-itens">Web Site</li>
             <li id='header-design' class="header-itens">Identidade Visual</li>
             <li id='header-support' class="header-itens">Apoio Gerencial</li>

@@ -104,6 +104,15 @@ h5
     background-color: $lightGray;
 }
 
+.bg-light-green
+{
+    background-color: #eff7f1;
+}
+
+.bg-light-blue
+{
+    background-color: #edf4f5;
+}
 
 .bg-green
 {
@@ -151,6 +160,17 @@ h5
 .align-right
 {
     text-align: right!important;
+}
+
+.right
+{
+    float: right!important;
+}
+
+.color
+{
+    -webkit-transition: all 1.0s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+    transition: all 1.0s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
 }
 
 button
@@ -293,15 +313,29 @@ body
                     width: 90px;
                     height: 42px;
                     background-image: url(../images/logo-bw.png);
+                    background-color: transparent;
                     padding: 0px;
-                    margin-left: 25px;
-                    margin-right: 25px;
+                    opacity: 0;
+                    display: initial;
+                    margin-top: -300px;
+                    -webkit-transition: all 0.7s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                    transition: all 0.7s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
                         
                     &.color
                     {
                         background-image: url(../images/logo-color.png);
                     }
-                        
+                    
+                    &.active
+                    {
+                        -webkit-transition: all 0.7s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                        transition: all 0.7s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+                        display: inline-block;
+                        opacity: 1;
+                        margin-top: 0px;
+                        margin-left: 25px;
+                        margin-right: 25px;
+                    }
                 }
 
                 &.header-itens
@@ -370,6 +404,11 @@ body
     {
         position: absolute;
         bottom: 0px;
+    }
+    
+    &.color
+    {
+        background-color: $bgBlue;
     }
 
 

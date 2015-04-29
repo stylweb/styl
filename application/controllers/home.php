@@ -34,9 +34,9 @@ class Home extends CI_Controller {
         $this->email->message($this->input->post('message'));
 
         if ($this->email->send()) {
-            echo "We have successfully received your email. We will Contact you ASAP.";
+            echo "Sua mensagem foi enviada corretamente!";
         } else {
-            echo "Some problem occurred.";
+            echo "Erro! Confira suas informações no formulário";
         }
     }
     

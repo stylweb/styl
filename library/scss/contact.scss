@@ -40,6 +40,18 @@ and open the template in the editor.
             resize: none;
             -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
             transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+            
+            /* Webkit */
+            ::-webkit-input-placeholder { color: $black; }
+
+            /* Firefox 4-18 */
+            :-moz-placeholder { color: $black; }
+
+            /* Firefox 19+ */
+            ::-moz-placeholder { color: $black; }
+
+            /* IE10+ */
+            :-ms-input-placeholder { color: $black; }
         }
         textarea
         {

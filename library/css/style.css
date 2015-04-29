@@ -76,6 +76,12 @@ h5 {
 .bg-light-gray {
   background-color: #f5f3ee; }
 
+.bg-light-green {
+  background-color: #eff7f1; }
+
+.bg-light-blue {
+  background-color: #edf4f5; }
+
 .bg-green {
   background-color: #9fe0a0; }
 
@@ -104,6 +110,15 @@ h5 {
 
 .align-right {
   text-align: right !important; }
+
+.right {
+  float: right !important; }
+
+.color {
+  -webkit-transition: all 1.0s ease-out;
+  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 1.0s ease-out;
+  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
 
 button {
   display: block;
@@ -186,11 +201,27 @@ body {
           width: 90px;
           height: 42px;
           background-image: url(../images/logo-bw.png);
+          background-color: transparent;
           padding: 0px;
-          margin-left: 25px;
-          margin-right: 25px; }
+          opacity: 0;
+          display: initial;
+          margin-top: -300px;
+          -webkit-transition: all 0.7s ease-out;
+          /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+          transition: all 0.7s ease-out;
+          /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */ }
           #header #header-nav ul li#header-logo.color {
             background-image: url(../images/logo-color.png); }
+          #header #header-nav ul li#header-logo.active {
+            -webkit-transition: all 0.7s ease-out;
+            /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s ease-out;
+            /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+            display: inline-block;
+            opacity: 1;
+            margin-top: 0px;
+            margin-left: 25px;
+            margin-right: 25px; }
         #header #header-nav ul li.header-itens {
           padding-top: 15px;
           padding-bottom: 15px;
@@ -236,6 +267,8 @@ body {
   #footer.absolute {
     position: absolute;
     bottom: 0px; }
+  #footer.color {
+    background-color: #1A2985; }
   #footer h5 {
     color: #cdcccc;
     margin: 0;

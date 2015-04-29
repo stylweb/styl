@@ -16,6 +16,8 @@ and open the template in the editor.
     Created on : 13/09/2014, 16:40:06
     Author     : Rodolfo
 */
+#design b {
+  color: #d74e43; }
 #design ul {
   height: 400px;
   text-align: center; }
