@@ -42,6 +42,6 @@
     <div id="header-banner" class="full-site">
         <div id="header-banner-image"></div>
         <h1>Styl</h1>
-        <h2>Web & Soluções</h2>
+        <h2>Web & Solu&ccedil;&otilde;es</h2>
     </div>
 </header>

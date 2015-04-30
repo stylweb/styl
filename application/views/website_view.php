@@ -4,7 +4,7 @@
         <ul>
             <li>
                 <div class="icon icon-monitor"></div>
-                <h2>Elaboração de Site</h2>
+                <h2>Elabora&ccedil;&atilde;o de Site</h2>
                 <p>
                     - Desenvolvimento de sites com o objetivo de adequar seu negocio no ambiente Web.<br /><br />
                     - Cria&ccedil;&atilde;o do Webdesign ideal para o seu produto.<br /><br />
@@ -14,14 +14,14 @@
             </li>
              <li>
                 <div class="icon icon-email"></div>
-                <h2>Criação de E-mail Marketing</h2>
+                <h2>Cria&ccedil;&atilde;o de E-mail Marketing</h2>
                 <p>- Solu&ccedil;&otilde;es em  campanhas de marketing.<br /><br />
                     - Desenvolvemos  e-mail marketing  com rapidez e design apropriado ao seu negocio.<br /><br />
   - Custo e prazo de entrega vi&aacute;veis a sua necessidade.</p>
             </li> 
            <li>
                 <div class="icon icon-ecommerce"></div>
-                <h2>Desenvolvimento de Loja Virtual</h2>
+                <h2>Loja Virtual</h2>
                 <p>- Constru&ccedil;&atilde;o de site E-commerce  adequado ao seu negocio.<br /><br />
                     - Utilizando ferramentas e solu&ccedil;&otilde;es web,  desenvolvemos o seu negocio  com um custo/beneficio adequado.<br /><br />
                     - Acompanhamento na implanta&ccedil;&atilde;o e  manuten&ccedil;&atilde;o  dos processos e-commerce.<br /><br />
@@ -36,7 +36,7 @@
         <li>
             <div class="icon"></div>
             <div class="text">
-                <h2>Atualização Site Existente</h2>
+                <h2>Atualiza&ccedil;&atilde;o Site Existente</h2>
                 <p>-Recriamos e  atualizamos seu Website.<br />
                     - Desenvolvemos um novo design em cima das informa&ccedil;&otilde;es j&aacute; existentes.<br />
                     - Readequando o seu contato Web ao mercado.</p>
